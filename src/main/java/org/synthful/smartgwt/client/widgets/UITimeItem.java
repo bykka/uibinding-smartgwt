@@ -223,10 +223,6 @@ public class UITimeItem extends UIFormItem<TimeItem>{
 		return item.getChangeOnKeypress();
 	}
 
-	public CharacterCasing getCharacterCasing() {
-		return item.getCharacterCasing();
-	}
-
 	public JavaScriptObject getConfig() {
 		return item.getConfig();
 	}
@@ -407,40 +403,12 @@ public class UITimeItem extends UIFormItem<TimeItem>{
 		return item.getJsObj();
 	}
 
-	public String getKeyPressFilter() {
-		return item.getKeyPressFilter();
-	}
-
 	public int getLeft() {
 		return item.getLeft();
 	}
 
-	public Integer getLength() {
-		return item.getLength();
-	}
-
 	public String getLocateItemBy() {
 		return item.getLocateItemBy();
-	}
-
-	public String getMask() {
-		return item.getMask();
-	}
-
-	public Boolean getMaskOverwriteMode() {
-		return item.getMaskOverwriteMode();
-	}
-
-	public String getMaskPadChar() {
-		return item.getMaskPadChar();
-	}
-
-	public String getMaskPromptChar() {
-		return item.getMaskPromptChar();
-	}
-
-	public Boolean getMaskSaveLiterals() {
-		return item.getMaskSaveLiterals();
 	}
 
 	public String getMultipleValueSeparator() {
@@ -840,10 +808,6 @@ public class UITimeItem extends UIFormItem<TimeItem>{
 		item.setChangeOnKeypress(changeOnKeypress);
 	}
 
-	public void setCharacterCasing(CharacterCasing characterCasing) {
-		item.setCharacterCasing(characterCasing);
-	}
-
 	public void setColSpan(int colSpan) {
 		item.setColSpan(colSpan);
 	}
@@ -1052,40 +1016,12 @@ public class UITimeItem extends UIFormItem<TimeItem>{
 		item.setJsObj(jsObj);
 	}
 
-	public void setKeyPressFilter(String keyPressFilter) {
-		item.setKeyPressFilter(keyPressFilter);
-	}
-
 	public void setLeft(int left) {
 		item.setLeft(left);
 	}
 
-	public void setLength(Integer length) {
-		item.setLength(length);
-	}
-
 	public void setLocateItemBy(String locateItemBy) {
 		item.setLocateItemBy(locateItemBy);
-	}
-
-	public void setMask(String mask) {
-		item.setMask(mask);
-	}
-
-	public void setMaskOverwriteMode(Boolean maskOverwriteMode) {
-		item.setMaskOverwriteMode(maskOverwriteMode);
-	}
-
-	public void setMaskPadChar(String maskPadChar) {
-		item.setMaskPadChar(maskPadChar);
-	}
-
-	public void setMaskPromptChar(String maskPromptChar) {
-		item.setMaskPromptChar(maskPromptChar);
-	}
-
-	public void setMaskSaveLiterals(Boolean maskSaveLiterals) {
-		item.setMaskSaveLiterals(maskSaveLiterals);
 	}
 
 	public void setMultipleValueSeparator(String multipleValueSeparator) {
