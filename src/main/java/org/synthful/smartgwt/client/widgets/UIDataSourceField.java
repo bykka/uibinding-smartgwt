@@ -800,10 +800,6 @@ implements UIMasquerade<DataSourceField>, HasText
 		return field.getUploadFieldName();
 	}
 
-	public void exportForceText() {
-		field.exportForceText();
-	}
-
 	public void setEditorProperties(FormItem editorProperties) {
 		field.setEditorProperties(editorProperties);
 	}
